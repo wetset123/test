@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+/*	form	*/
+label{
+	width:80px;
+	height:24px;
+	display:block;
+	float:left;
+	padding-top: 10px; 
+	padding-left:10px;
+	border: 1px solid #CDC28D; 
+	background-color: #F2F9FD;
+}
+.form div{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+div.form{
+	margin:50px 150px 0 150px;
+	border:1px solid #0066FF;
+	box-shadow: 8px 8px 10px rgba(103, 166, 217, 1);
+}
+div.login{	
+	padding:1em;
+}div.register{	
+	padding:1em;
+}
+.form h1{
+	border-bottom:2px solid #0066ff;
+}
+.form img{
+	float:right;
+	margin-right:50px;
+}
+.form input[type="submit"]{
+	margin:10px 40px;
+}
