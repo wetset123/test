@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><div class="form">
 	<h1>登陆</h1>
 	<div class="login">
-		<form method="post" action="/contest/index.php/Login/loggedin">
+		<form method="post" action="/test/test/contest/index.php/Login/loggedin">
 			<div>
 				<LABEL for="username">用户名：</LABEL>
 				<INPUT type="text" name="username" id="username" placeholder="请输入用户名" required>

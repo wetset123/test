@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><div class="form">
 <h1>注册</h1>
 <DIV class="register">
-<FORM method="post" action="/contest/index.php/Register/insert">
+<FORM method="post" action="/test/test/contest/index.php/Register/insert">
 <div>
 <label for="username">用户名：</label><INPUT type="text" name="username" id="username" placeholder="请输入用户名" required>
 </div>
