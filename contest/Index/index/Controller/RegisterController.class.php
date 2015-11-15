@@ -46,14 +46,5 @@ class RegisterController extends Controller {
     	      $Verify->useImgBg = true;
     	      $Verify->entry();
     	   }
-    	   
-    	   public function email(){
-    	   	$to="1061166201@qq.com";
-    	   	$name="a";
-    	   	$subject="哈哈哈";
-    	   	$body="去去去";
-    	   	think_send_mail($to,$name,$subject,$body);
-    	   }
-    
 }
 
